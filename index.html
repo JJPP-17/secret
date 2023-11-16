@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Special Website</title>
+    <style>
+        .word {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+ 
+.typing-demo {
+  width: 50ch;
+  display: inline-block;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 15px;
+}
+ 
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+</style>
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="funtime.html">Fun Time</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="variable.html">Surprise</a></li>
+        </ul>
+    </nav>
+
+    <div class="word">
+      <div class="typing-demo">
+        <center>WELCOME DYU TO WEBSITE <blink>love you!</blink>
+        <br>This is a special website. <br>Do you wanna be mine?</center>
+      </div>
+    </div>
+
+</body>
+</html>
