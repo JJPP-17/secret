@@ -58,13 +58,17 @@ body {
   }
 
 .move-button{
-    background-color: transparent;
+    background-color: #ffd9ea;
     border: 3px dashed rgb(81, 9, 9);
     width: 100px;
     height: 100px;
     border-radius: 60px;
     margin-right: 10px;
     cursor: pointer;
+  }
+
+  .move-icon{
+    background-color: #ffd9ea;
   }
 
 .result{

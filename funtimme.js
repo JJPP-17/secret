@@ -54,8 +54,8 @@ updateScoreElement();
 document.querySelector('.js-result').innerHTML = result;
 
 document.querySelector('.js-moves').innerHTML = `EDave
-<img src="gameimage/${playerMove}-emoji.jpg" class="move-icon">
-<img src="gameimage/${computerMove}-emoji.jpg" class="move-icon">
+<img src="gameimage/${playerMove}-emoji-jj.png" class="move-icon">
+<img src="gameimage/${computerMove}-emoji-jj.png" class="move-icon">
 JJ`;
 }
 
